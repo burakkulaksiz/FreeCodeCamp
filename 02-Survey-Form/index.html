@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FCC: Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <p id="description"></p>
+    <form action="" id="survey-form">
+      <label for="name" id="name-label">Name</label> <br />
+      <input type="text" id="name" placeholder="Enter your name" /><br />
+      <label for="email" id="email-label">Email</label> <br />
+      <input type="email" id="email" placeholder="Enter your Email" /><br />
+      <label for="number" id="number-label">Age(optional)</label> <br />
+      <input
+        type="number"
+        id="number"
+        min="12"
+        max="99"
+        placeholder="Age"
+      /><br />
+      <label>
+        Which option best describes your current role? <br />
+        <input list="dropdown" placeholder="Select current role" />
+      </label>
+      <datalist id="dropdown">
+        <option value="Student"></option>
+        <option value="Full Time Job"></option>
+        <option value="Full Time Learner"></option>
+        <option value="Prefer not to say"></option>
+        <option value="Other"></option>
+      </datalist>
+      <p>Would you recommend freeCodeCamp to a friend?</p>
+      <input type="radio" name="recommend" />
+      <label for="">Definitely</label> <br />
+      <input type="radio" name="recommend" />
+      <label for="">Maybe</label> <br />
+      <input type="radio" name="recommend" />
+      <label for="">Not Sure</label> <br />
+      <label>
+        What is your favorite feature of freeCodeCamp? <br />
+        <input list="dropdown-2" placeholder="Select an option" />
+      </label>
+      <datalist id="dropdown-2">
+        <option value="Challenges"></option>
+        <option value="Projects"></option>
+        <option value="Community"></option>
+        <option value="Open Source"></option>
+      </datalist>
+      <p>What would you like to see improved? (Check all that apply)</p>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="frontend" />
+      <label for="vehicle1"> Front-end Projects</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="backend" />
+      <label for="vehicle2"> Back-end Projects</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="data" />
+      <label for="vehicle3"> Data Visualization</label><br />
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="challenges" />
+      <label for="vehicle1"> Challenges</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="backend" />
+      <label for="vehicle2"> Back-end Projects</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="data" />
+      <label for="vehicle3"> Data Visualization</label><br />
+    </form>
+  </body>
+</html>
