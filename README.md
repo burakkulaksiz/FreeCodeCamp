@@ -2,5 +2,5 @@
 
 ## Project live links:
 
-- <a href="" target="_blank">Tribute Page</a>
-- <a href="" target="_blank">Survey Form</a>
+- <a href="https://kulaksiz-tribute-page.netlify.app/" target="_blank">Tribute Page</a>
+- <a href="https://kulaksiz-survey-form.netlify.app/" target="_blank">Survey Form</a>
